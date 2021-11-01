@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="712FA2B6-C60F-C092-5FBD-20160E1A9815" name="T_SITE">
+<createdBy>link</createdBy>
+<createdTime>2021-11-01 15:13:45 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="8CDD1D5B-A0B1-EA86-1F41-E2028A52F72A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_site" id="57F74FCD-A559-6DEE-064A-B9AD9C002FC2">
+<createdBy>link</createdBy>
+<createdTime>2021-11-01 15:13:45 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="8CDD1D5B-A0B1-EA86-1F41-E2028A52F72A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_pessoal" id="7975CF6B-013D-F5F5-9845-DB03A5E6EE9E">
+<createdBy>link</createdBy>
+<createdTime>2021-11-01 15:13:45 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="8CDD1D5B-A0B1-EA86-1F41-E2028A52F72A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_trabalho" id="0EC3B2DB-CD3B-238E-92DE-9AC576C26503">
+<createdBy>link</createdBy>
+<createdTime>2021-11-01 15:13:45 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="8CDD1D5B-A0B1-EA86-1F41-E2028A52F72A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_outro" id="04DBAC60-428C-9BD5-8D62-108849FC7CAE">
+<createdBy>link</createdBy>
+<createdTime>2021-11-01 15:13:45 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="8CDD1D5B-A0B1-EA86-1F41-E2028A52F72A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0D90DFF-A011-9C29-BD25-639551FCE01C" name="T_PACIENTE PK">
+<createdBy>link</createdBy>
+<createdTime>2021-11-01 15:13:45 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="8CDD1D5B-A0B1-EA86-1F41-E2028A52F72A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57F74FCD-A559-6DEE-064A-B9AD9C002FC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
