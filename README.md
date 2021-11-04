@@ -1,1 +1,1 @@
-This is a collection of learning exercises given by FIAP University of Technology.
+This is a collection of learning exercises in Fiap's Software Analysis and Development graduation course.
